@@ -20,17 +20,17 @@ Here are the general steps for installing Packer on a Windows, Linux, or macOS m
 **Here’s an example of how to install Packer on a Linux machine:**
 
 1.  Download the Packer binary:
-
+```sh
 wget https://releases.hashicorp.com/packer/1.7.5/packer_1.7.5_linux_amd64.zip
-
+```
 2. Unzip the binary
-
+```sh
 unzip packer_1.7.5_linux_amd64.zip
-
+```
 3. Move the binary to a folder in PATH:
-
+```sh
 sudo mv packer /usr/local/bin/
-
+```
 4. Verify the installation
 ```sh
 $ packer version  
